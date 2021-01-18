@@ -1,0 +1,415 @@
+#phoneBody{
+    width: 268px;
+    height: 608px;
+    background-color:black;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding: 18px;
+}
+
+#speaker{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(24, 23, 23);
+    margin: 7px 0px 0px 125px;
+    border-radius: 10px;
+    opacity: 0.2px;
+}
+
+#camera{
+    width: 8px;
+    height: 8px;
+    background-color:  gray;
+    border-radius: 100%;
+    margin: -6px 0px 0px 100px;
+}
+
+#screen{
+    width: 273px;
+    height: 498px;
+    background-color: white;
+    margin: 30px 0px 0px -12.43px;
+    padding: 10px;
+    background-image: url(./image/lockscreen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+ }
+
+ #screen2{
+    
+    width: 273px;
+    height: 498px;
+    background-color: white;
+    margin: 30px 0px 0px -12.43px;
+    padding: 10px;
+    background-image: url(./image/homescreen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+ }
+
+ #powerbuttn{
+     width: 6px;
+     height: 40px;
+     background-color: black;
+     /* margin: -400px 0px 0px 285px; */
+     margin: -328px 0px 0px 285px;
+     border-radius: 20px;
+ }
+
+ #silentBtn{
+    width: 6px;
+    height: 25px;
+    background-color: black;
+    margin: -60px 0px 0px 0px;
+    border-radius: 20px;
+
+ }
+
+ #volum{
+     /* width: 30px;
+     height: 55px; */
+     display: grid;
+     grid-template-columns: auto;
+     /* background-color: burlywood; */
+     margin: -40px 0px 0px -18px;
+     
+ }
+
+ #upVolum{
+    width: 6px;
+    height: 45px;
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    border-radius: 20px;
+
+ }
+
+ #downVolum{
+     width: 6px;
+     height: 45px;
+     background-color: black;
+     border-radius: 20px;
+     margin: 10px 0px 0px 0px;
+ }
+
+ #home_butn{
+     width: 50px;
+     height: 53px;
+     background-color: rgb(12, 12, 12);
+     border-radius: 30px;
+     margin: 5px 0px 0px 110px;
+ }
+
+ #home_butn:hover {
+    cursor: pointer;
+}
+ #icons{
+     /* visibility: hidden; */
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+     column-gap: 1%;
+     row-gap: 6%;
+     /* margin: -60px 0px 0px 0px; */
+     margin: 10px 0px 0px -9px;
+    }
+
+#first{
+    visibility: hidden;
+}
+
+#icon1{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/facetimeicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon2{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/calendaricon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon3{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/cameraicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon4{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/mailicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon5{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/clockicon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon6{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/mapicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon7{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/weathericon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon8{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/remindersicon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon9{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/notesicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon10{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/stocksicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon11{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/booksicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon12{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/appstoreicon.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon13{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/whatsappIcon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon14{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/app;eTVicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon15{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/healthicon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon16{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/homeicon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon17{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/walleticon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon18{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/iphoneSetting.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon19{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/musicicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon20{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/instagramicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon21{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/callicon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon22{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/safariIcon.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon23{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/messageicon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+#icon24{
+    /* width: 50px;
+     height: 55px;
+     margin: 35px 5px 0px 0px;
+     border-radius: 10px; */
+     background-image: url(./image/galaryicon.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+ .icon{
+     /* visibility: hidden; */
+    /* display: none; */
+     width: 50px;
+     height: 50px;
+     margin: auto auto auto auto;
+     border-radius: 10px;
+     background-image: url(./image/lockscreen.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ #downIcons{
+    background-color: rgb(230, 107, 70);
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    width: 293px;
+    height: 65px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 1%;
+    row-gap: 7%;
+    /* margin: -60px 0px 0px 0px; */
+    margin: 1px 0px 0px -1px;
+    border-radius: 2px;
+ }
+ 
+
+ 
